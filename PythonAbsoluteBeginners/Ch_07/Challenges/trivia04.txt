@@ -1,0 +1,57 @@
+I'm Sure I Wrote It Down Somewhere.../---------------------------------------
+Look, there's nothing up my sleeves..
+If I select to open a file to write to it but that file doesn't exist, python will...
+Raise an error
+Open the first file it finds in C:
+Create the file for me and open it
+Display the spinning circle as it tries to find the file
+3
+Python will automatically create the file for us if we try and open a /file for writing that doesn't already exist.
+I just look at the pictures really
+Which of the following lines of code would we use to read the next line /from a file object 'test_file'?
+test_file.readline()
+test_file.read(2)
+test_file.read()
+test_file.readlines()
+1
+'readline' is the command to read just the next line in the file from /the current cursor position. 'read()' will read all of the file contents as /they are written and 'readlines()' reads all remaining lines as list items.   
+Which button is it?
+Which of the following is not a valid mode to use to open a file with?
+ab
+rw
+r+
+w+
+2
+We can use r+, w+ or ab to perform both read and write operations using /a single file object.
+Do I get a salad with that?
+What happens when you pickle something in python?
+You get a jar of beetroot, onions, that type of stuff...
+Python goes into an infinite loop you can't get out of
+You serialise an object ready to save to disk
+Python creates a temporary copy of the object
+3
+Pickling is the process of serialising an object  before writing it to /file. Pickling is a way to convert a python object (list, dict, etc.) /into a character stream that contains all the information necessary to /reconstruct the object in another python script. 
+And there's still nothing up my sleeves...
+If I select to open a file to read from it but that file doesn't exist, python will...
+Create the file for me and open it with no contents
+Raise an error
+Open the first file it finds in C:
+Display the spinning circle as it tries to find the file
+2
+Python cannot read from a file that does not exist so it will raise /a 'FileNotFoundError'.
+Mobius file - where content become a loop
+Which of the following would move the cursor back to the start of the file?
+file.seek(0,0)
+file.seek()
+file.seek(1,1)
+file.seek(start)
+1
+0,0 is the position for the very start of the file - remember that lots of /things in python start from zero rather than one
+Why don't you just ask for directions?
+Which of the following would give you the current cursor position within /a file?
+file.seek()
+file.location()
+file.position()
+file.tell()
+4
+It gives the current position as an offset from the start of file (see /what they did there, it 'tells' you where you are in the file!)

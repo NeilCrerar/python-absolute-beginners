@@ -1,0 +1,49 @@
+I'm Sorry Dave, I'm Afraid I Can't Do That/-------------------------------------------
+Your name's not down, your not coming in!
+You're in the club looking for your friends but can't find them, you seem to /be suffering from a...
+IOError
+IndexError
+KeyError
+NameError
+4
+A NameError is raised when a name (of a variable or function, for /example) cannot be found... like your friends
+It's all foreign to me!
+If this makes sense sentence, it's a probably...
+NameError
+SyntaxError
+TypeError
+ValueError
+2
+A SyntaxError is where you might have the right code, but it's in the wrong /order... like this sentence
+Error handling, huh, yeah, what is it good for?
+What is the purpose of 'try\except' in error handling?
+It allows you to try a piece of code and handle any problems that arise
+It allows you to have two different menu options
+It's just for formatting, it serves no purpose
+It stops bananas from getting into the system
+1
+Using a try statement separates off a piece of code that may cause /a problem when executed and the except statement will handle that problem
+Wait, what was that?
+Something happened, not sure what, but something definitely went wrong...
+ZeroDivisionError
+SyntaxError
+RuntimeError
+ValueError
+3
+A RuntimeError is raised when a generated error does not fall into any category
+This is not the file you are looking for..
+You're program is looking for a file to read in but you forgot to write it, /what exception with you see?
+KeyError
+IOError
+ValueError
+TypeError
+2
+IOErrors are raised when an input/output operation fails, such as /when an attempt is made to open a nonexistent file in read mode
+Nope, I got nothing
+What is no cookies divided by no friends?
+Something that makes cookie monster sad
+KeyError
+An argument that has the right type but an inappropriate value
+ZeroDivisionError
+4
+A zero division error is raised when the second argument of a /division or modulo  operation is zero.. like no cookies or friends
