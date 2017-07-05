@@ -1,0 +1,485 @@
+-------------------------------------------------------------------------------
+CHAPTER 01: Getting Started
+---------------------------
+
+HINT_Page-5
+The companion website for this book can be found at:
+    www.courseptr.com/downloads.
+It hosts the code for every complete program presented in these pages, along 
+with all necessary files and software installers.  You can find a more detailed 
+description of what's available in Appendix A 'The Companion Website'.
+
+TRAP_Page-7
+Your computer may have Python preinstalled; however, you must be using Python 3 
+in order for the programs in this book to work correctly.
+
+TRAP_Page-8
+Python is case-sensitive and by convention, function names are in lowercase. So: 
+    print("Game Over")
+Will work, but: 
+    Print("Game Over")
+And: 
+    PRINT("Game Over")
+Won't.
+  
+HINT_Page-8
+Functions in Python also return or provide information back to the part of the 
+program that called the function.  These values are called return values.  
+You'll learn more about return values in Chapter 2.
+
+HINT_Page-11
+Make sure to save your programs with the '.py' extension.  This allows various 
+applications, including IDLE, to recognise these files as Python programs.
+
+TRICK_Page-12
+Under the Windows operating system, you can directly open a Python program in
+IDLE by right-clicking on the file icon and selecting 'Edit with IDLE'.
+
+-------------------------------------------------------------------------------
+CHAPTER 02: Types, Variables and Simple I/O
+-------------------------------------------
+HINT_Page-12
+Don't worry if you don't know what a parameter is just yet.  You'll learn all 
+about parameters and passing values to them in Chapter 6, in the 'Using 
+Parameters and Return Values' section.
+
+HINT_Page-30
+The decimal module provides support for accurate decimal floating-point 
+arithmetic.  To learn more, see the Python documentation.
+
+TRAP_Page-31
+Technically, an assignment statement stores the value on the right side of the 
+equals sign in your computers memory while the variable on the left side only 
+refers to that value (and doesn't directly store it).  Therefore, Python 
+purists would say that a variable 'gets' a value instead of saying that a 
+variable is assigned a value.  However, I use 'gets' and 'assigned' 
+interchangeably, depending upon which seems clearest.
+You'll learn more about the implications of the way variables refer to values 
+(rather than storing them) in Chapter 5, in the section 'Understanding Shared 
+References'.
+
+TRICK_Page-32
+Self-documenting code is written in such a way that it is easy to understand 
+what is happening in the program independent of any comments.  Choosing good 
+variable names is an excellent step towards this kind of code.
+
+HINT_Page-45
+Experienced programmers also use the initial comments area to describe any 
+modifications they make to the code over time.  This provides a history of the 
+program right up front.  This practice is especially helpful when several 
+programmers have their hands on the same code.
+
+-------------------------------------------------------------------------------
+CHAPTER 03: Branching, While Loops, and Program Planning
+--------------------------------------------------------
+TRAP_Page-50
+Python generates random numbers based on a formula, so they are not truly 
+random.  This kind of random generation is called 'pseudorandom' and is good 
+enough for most applications (just don't try and start an online casino with 
+it).  If you really need truly random numbers visit:
+    http://www.fourmilab.ch/hotbits/
+The site generates random numbers based on the natural and unpredictable 
+process or radioactive decay.
+
+TRAP_Page-53
+I used both the 'randint()' and 'randrange()' functions in the Craps Roller 
+program so that I could show off two different functions for generating random 
+numbers.  In general, you'll want to pick the function that best fits your 
+needs.
+
+TRAP_Page-55
+The equal-to comparison operator is two equal signs in arrow.  Using just one 
+equal sign in a condition could result in a syntax error, because one equal 
+sign represents the assignment operator.  So:
+    password = "secret"
+Is an assignment statement.  It assigns a value. And:
+    password == "secret"
+Is a condition.  It evaluates to either True of False.  Even though the 
+assignment operator and the equal to operator look similar, they are two 
+different things.
+
+TRAP_5Page-6
+Python won't let you make certain comparisons.  Objects of different types that 
+don't have an established definition for order can't be compared using the <, 
+<=, >, >= operators.  For example, Python wont let you use these operators to 
+compare strings and integers.  Go ahead, try to use the condition:
+    10 > "five"
+In your program – all you'll do is generate a big, fat error message.
+
+HINT_Page-57
+There's passionate debate within the Python community about whether to use tabs 
+or spaces (and if spaces, the number to use) for indentation.  This is really a 
+question of personal style, but there are two guidelines worth following.  
+First, be consistent.  If you indent blocks with two spaces, then always use 
+two spaces.  
+Second, don't mix spaces and tabs.  Even though you can line up blocks using a 
+combination of both, this can lead to big headaches later.  
+Common indentation styles include one tab, or two spaces, or (the style the 
+creator of Python uses) four spaces.  The choice is yours.
+
+TRAP_Page-62
+An important feature of an 'if' statement with the 'elif' clause us that once a 
+condition evaluates to True, the computer executes its corresponding block and 
+exits the statement.  This means that at most, only one block execute, even if 
+several conditions would evaluate to True.  In Mood Computer, that's no big 
+deal, mood can only be equal to a single number, so only one of the conditions 
+can be true.  But it's important to be aware of this behaviour because it's 
+possible to create statements where more than one condition can be true at the 
+same time.  In that case, only the block associated with the first true 
+condition executes.
+
+TRAP_Page-62
+Though it's not necessary to use the final 'else' clause, it's a good idea.  
+It works as a catch-all for when none of the conditions within the statement 
+are True.  Even if you think one of your conditions will always be True, you 
+can still use the final 'else' clause to catch the impossible case, like I did.
+
+TRAP_Page-65
+If the sentry variable doesn't have a value when the condition is evaluates, 
+your program will generate an error.
+
+HINT_Page-78
+Put 'and' between two conditions when you want to create a new condition that 
+is true only if both simpler conditions are true.
+
+HINT_Page-82
+It's OK if your first program plan isn't complete.  Start planning with the 
+major ideas first, then fill in the gaps until it feels done.
+
+-------------------------------------------------------------------------------
+CHAPTER 04: For Loops, Strings, and Tuples
+------------------------------------------
+
+TRAP_Page-92
+While it can be helpful to imagine that the results of the 'range()' function 
+is a sequence of integers, that's not what it produces.  The function actually 
+returns something that produces the next number in the sequence , as needed.  
+For our purposes, imagining the entire sequence of numbers all at once is fine.  
+If you want to learn more about the inner workings of the 'range()' function, 
+check out the documentation at: http://www.python.org.
+
+HINT_Page-92
+You can create your own sequences of values, called a list, by enclosing the 
+values in brackets, separated by commas.  But don't go off create a bunch of 
+lists just yet.  You'll learn all about lists in Chapter 05, 'Lists and 
+Dictionaries: The Hangman Game'. I promise.
+
+TRICK_Page-93
+There's no law that says you have to use the loop variable inside a 'for' loop.  
+You might find that you want to repeat some action a specific number of times.  
+To do this, create a 'for' loop and just ignore the loop variable in the loop 
+body.  For example, let's say I just wanted to print "Hi!" 10 times.  The 
+following two lines are all I would need:
+    for I in range(10):
+        print("Hi!")
+
+TRAP_Page-97
+Since there are five letters in the string "index", you might think that the 
+last letter, "x" would be at position 5.  But you 'd be wrong.  There is no 
+position 5 in this string because the computer begins counting at 0.  Valid 
+positive positions are 0, 1, 2, 3, and 4.  Any attempts to access a position 5 
+will cause an error.  Take a look at an interactive session for proof:
+    >>> word = "index"
+    >>> print(word[5])
+    Traceback (most recent call last):
+    File "<pyshell#1>", line 1, in ?
+        print word[5]
+    IndexError: string index out of range
+Somewhat rudely, the computer is saying that there is no position 5.  So 
+remember that the last element in a sequence is at the position number of its 
+length minus one.
+
+TRAP_Page-103
+You have to be careful when you create constants by making an all-caps variable 
+name.  Even though you're saying to yourself and other programmers that this 
+variable will always refer to the same value, there is nothing in Python that 
+will stop you from changing it in your program.  This naming practice is simply 
+a convention.  So, once you create a variable with a name in all caps, make 
+sure to treat is as unchangeable.
+
+TRICK_Page-104
+Often when you compare two strings, you don't care about the case matching, 
+only the letters.  If you ask a player if he or she wants to continue a game, 
+the string "Yes" is as good as the string "yes".  Well, in these instances, 
+just make sure to convert both strings to the same case (upper or lowercase, 
+it doesn't matter) before you compare them.
+
+TRAP_Page-107
+If you create an "impossible" slice, where the starting point is bigger than 
+the ending point, like:
+    word[2:1]
+You won't cause an error.  Instead Python will quietly return an empty 
+sequence.  For strings, that means you'll get the empty string.  So be careful, 
+because this is probably not the kind of result you're after.
+
+TRICK_Page-108
+If there's one bit of slicing shorthand you should remember, it's that '[:]' 
+returns a complete copy of a sequence.  As you program, you'll find you may 
+need to make a copy of a sequence and this is a quick and efficient way to do 
+just that.
+
+TRICK_Page-111
+Make your program easier to read by creating tuples across multiple lines.  You 
+don't have to write exactly one element per line, though.  It might make sense 
+to write several on a line.  Just end each line at one of the commas separating 
+elements and you'll be fine.
+
+TRAP_Page-112
+Other programming languages offer structures similar to tuples.  Some go by the 
+name 'arrays' or 'vectors'.  However, those other languages usually restrict 
+the elements of these sequences to just one type.  So, for example, you 
+couldn't mix strings and numbers together.  Just be aware that these other 
+structures don't offer the flexibility that Python sequences do.
+
+TRAP_Page-115
+Notice that in the tuple 'inventory', the string "healing potion" is counted as 
+a single element even though it is two words.
+
+-------------------------------------------------------------------------------
+CHAPTER 05: Lists and Dictionaries
+----------------------------------
+
+TRAP_Page-127
+You can assign an existing list element a new value with indexing, but you 
+can't create a new element in this way.  An attempt to assign a value to a non-
+existent element will result in an error.
+
+TRAP_Page-131
+Watch out when you use the 'remove()' method.  If you try to remove a value 
+that isn't in a list, you'll generate an error.  Here's a safe way to do just 
+that:
+    if score in scores:
+        scores.remove(score)
+
+HINT_Page-132
+If you want to sort a list in ascending order (smallest values first), you can 
+simply call the method without passing values to any parameters.  So, if I 
+wanted to sort a list called 'numbers' in ascending order, I could just use the 
+following line:
+    numbers.sort()
+
+TRAP_Page-135
+Although you can create nested sequences inside nested sequences many times 
+over, as in the following example, this usually isn't agood idea:
+nested = ("deep", ("deeper",  ("deepest",  "still deepest")))
+Things can get confusing fast.  Even experienced programmers rarely use 
+sequences more than a level or two deep.  For most program you'll write, one 
+level of nesting (like the 'scores' list you just saw) is really all you'll 
+need.
+
+TRAP_Page-142
+If you try to get a value from a dictionary by directly accessing it with a key 
+that doesn't exist, you'll generate an error:
+    >>> geek["Dancing Baloney"]
+    Traceback (most recent call last):
+    File "<pyshell#1>", line 1, in <module>
+        geek["Dancing Baloney"]
+    KeyError: 'Dancing Baloney'
+Since "Dancing Baloney" isn't a key in the dictionary, this results in an 
+error.  ("Dancing Baloney" by the way, means animated graphics and other visual 
+effects that have no substantive value, often used by web designers to impress 
+clients).
+
+TRICK_Page-146
+A dash of pessimism is a good thing, at least when you're new to programming.  
+As you saw here, I assumed that the user might try to add a new term without 
+realising that it's already in the dictionary.  If I hadn't checked for this, 
+a user could overwrite a term without realising it.  When you're writing your 
+own programs, try to think of things that could go wrong, then try to make sure 
+your program can deal with them.  So be a pessimist, just a little bit.
+
+TRIP_Page-146
+If you assign a value to a dictionary using a key that already exists, Python 
+replaces the current value without complaint.  So you have to watch out, 
+because you might overwrite the value of an existing key without realising it.
+
+TRAP_Page-147
+Trying to delete a dictionary item through a key that doesn't exist will give 
+you an error.  It's a smart move to be sure that the key you're using exists.
+
+TRAP_Page-148
+Dictionary views – returned by 'keys()', 'values()', and 'items() – are, in 
+some ways, like lists.  They can be iterated over with a 'for' loop.  However, 
+they are not lists.  They can't, for example, be indexed.  In addition, views 
+are dynamic, which means that their contents are not independent of their 
+associated dictionaries.  So, a change to a dictionary is reflected by views of 
+that dictionary.  To learn more about views, see the documentation section of 
+the official Python website (www.python.org).
+
+-------------------------------------------------------------------------------
+CHAPTER 06: Functions
+---------------------
+
+TRAP_Page-164
+Make sure to have enough variables to catch all the return values of a 
+FUNCTION.  If you don't have the right number when you try to assign them, 
+you'll generate an error
+
+HINT_Page-165
+Don't worry if you don't totally get the subtle difference between abstraction 
+and encapsulation right now.  They're intertwined concepts, so it can be a 
+little tricky.  Plus, you'll get to see them in action again when you learn 
+about software objects and object orientated programming in chapters 8 and 9.
+
+TRAP_Page-169
+You can combine keyword arguments and positional arguments in a single function 
+call, but this can get tricky.  Once you use a keyword argument, all the 
+remaining arguments in the call must be keyword arguments too.  To keep things 
+simple, try to use all keyword or all positional arguments in your function 
+calls.
+
+TRAP_Page-170
+Once you assign a default value to a parameter in the list, you have to assign 
+default values to all of the parameters listed after it.  SO this function 
+header is perfectly fine:
+    def monkey_around(bananas=100, barrel_of="yes", uncle="monkey's"):
+But this isn't:
+    def monkey_around(bananas=100, barrel_of, uncle):
+The second header would generate an error.
+
+TRICK_Page-171
+Default parameter values are great if you have a function where almost every 
+time it's called, some parameter gets sent the same value.  To save programmers 
+using your program the trouble of typing this value every time, you could use a 
+default parameter value instead.
+
+TRAP_Page-174
+It's not a good idea to shadow a global variable inside a function.  It can 
+lead to confusion.  You might think you're using a global variable when you're 
+really not.  Be aware of any global variables in your program and make sure not 
+to use the name anywhere else in your code.
+
+TRICK_Page-183
+This is definitely the meatiest function of the program.  Knowing it would be, 
+I initially created a short, temporary function that chooses a random, but 
+legal move.  I wanted time to think about this function, but I didn't want to 
+slow the progress of the entire project.  So, I dropped in the temporary 
+function and got the game up and running.  Later, I came back and plugged in a 
+better function that actually picks moves for a reason.
+I had this flexibility because of the modular design afforded by writing with 
+functions.  I knew that 'computer_move()' was a totally independent component 
+and could be substituted later without a problem.  In fact, I could even drop a 
+new function in right now, one that chooses even better moves (sounds an awful 
+lot like a challenge, now doesn't it?)
+
+HINT_Page-183
+Any time you get a mutable value passed to a function, you have to be careful.  
+If you know you're going to change the value as you work with it, make a copy 
+and use that instead.
+
+TRAP_Page-183
+You might think that changing the board would be a good thing.  You could 
+change it  so that it contains the new computer move.  This way, you don't need 
+to send the board back as a return value.
+Changing a mutable parameter directly like this is considered creating a 'side 
+effect'.  Not all side effects are bad, but this type is generally frowned upon 
+(I'm frowning right now, just thinking about it).  It's best to communicate 
+with the rest of your program through return values; that way, it's clear 
+exactly what information you're giving back.
+
+-------------------------------------------------------------------------------
+CHAPTER 07: Files and Exceptions
+--------------------------------
+HINT_Page-203
+When you call 'shelve.open()', Python may add an extension to the file name you 
+specify.  Python may also create additional files to support the newly created 
+shelf.
+
+HINT_Page-204
+While you could simulate a shelf by pickling a dictionary, the 'shelve' module 
+is more memory efficient.  So, if you need random access to pickled objects, 
+create a shelf.
+
+HINT_Page-208
+When should you trap for exceptions?  Any point of external interaction with 
+your program is a good place to think about exceptions.  It's a good idea to 
+trap for exceptions when opening a file for reading, even if you believe the 
+file already exists.  You can also trap for exceptions when you attempt to 
+convert data from an outside source, like the user.
+
+TRICK_Page-208
+So, lets say you know you want to trap for an exception, but you're not exactly 
+sure what the exception type is called.  Well, here's a shortcut for finding 
+out: just create the exception.  For example, if you know you want to trap for 
+a division-by-zero exception, but can't remember exactly what the exception 
+type is called, jump into the interpreter and divide a number by zero.
+    >>> 1/0
+    Traceback (most recent call last):
+    File "<pyshell#0>", line 1, in <module>
+        1/0
+    ZeroDivisionError: division by zero
+
+-------------------------------------------------------------------------------
+CHAPTER 08: Software Objects
+----------------------------
+
+HINT_Page-219
+Don't worry if all of this OOP talk isn't crystal clear yet.  I just wanted to 
+give you an overview of what objects are all about.  Like all new programming 
+concepts, reading about them isn't enough.  But, after seeing some real Python 
+code that defines classes and creates objects (and coding some on your own), 
+you'll soon 'get' OOP.
+
+TRAP_Page-221
+If you create an instance method without any parameters, you'll generate an 
+error when you invoke it.  Remember, all instance methods must have a special 
+first parameter, called 'self' by convention.
+
+HINT_Page-224
+Python has a collection of built-in "special methods" whose names begin and end 
+with two underscores like '__init__', the constructor method.
+
+HINT_Page-226
+You can name the first parameter in a method header something other than 
+'self', but you shouldn't.  It's the "Pythonic" way to do things and other 
+programmers will expect it.
+
+HINT_Page-228
+Usually, you want to avoid directly accessing an object's attributes outside of 
+its class definition.  You'll learn more about this later in this chapter, in 
+section "Understanding Object Encapsulation".
+
+TRICK_Page-228
+Even if you never plan to print an object in your program, creating a 
+'__str__()' method is still not a bad idea.  You may find that being able to 
+see the values of an object's attributes helps you understand how a program is 
+working (or not working).
+
+TRAP_Page-231
+Although you can use an object of a class to access a class attribute, you 
+can't assign a new value to a class attribute through and object.  If you want 
+to change the value of a class attribute, access it through its class name.
+
+HINT_Page-234
+You can create a private class attribute by beginning the attribute's name with 
+two underscores.
+
+HINT_Page-235
+You should never try to directly access the private attributes or methods of an 
+object from outside of its class definition.
+
+HINT_Page-237
+You can create a private class method by beginning the method's name with two 
+underscores.
+
+HINT_Page-237
+When you write a class:
+  - Create methods to reduce the need for clients to directly access an 
+    object's attributes.
+  - Use privacy for those attributes and methods that are completely internal 
+    to the operation of objects.
+When you use an object:
+  - Minimise the direct reading of an objects attributes.
+  - Avoid directly altering an objects attributes.
+  - Never attempt to directly access an objects private attributes or methods.
+
+-------------------------------------------------------------------------------
+CHAPTER 09: Object Orientated Programming
+-----------------------------------------
+
+
+
+
+
+
+

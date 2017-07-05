@@ -1,0 +1,15 @@
+Python Programming for the Absolute Beginner 3rd Edition
+Michael Dawson
+
+CHAPTER 01 - Getting Started: The Game Over Program
+CHAPTER 02 - Types, Variables and Simple I/O: The Useless Trivia Program
+CHAPTER 03 - Branching, While Loops, and Program Planning: The Guess My Number Game
+CHAPTER 04 - For Loops, Strings, and Tuples: The Word Jumble Game
+CHAPTER 05 - Lists and Dictionaries: The Hangman Game
+CHAPTER 06 – Functions: The Tic-Tac-Toe Game
+CHAPTER 07 - Files and Exceptions: The Trivia Challenge Game
+CHAPTER 08 - Software Objects: The Critter Caretaker Program
+CHAPTER 09 - Object Orientated Programming: The Blackjack Game
+CHAPTER 10 – GUI Development: The Mad Lib Program
+CHAPTER 11 – Graphics: The Pizza Panic Game
+CHAPTER 12 – Sound, Animation, and Program Development: The Astrocrash Game
