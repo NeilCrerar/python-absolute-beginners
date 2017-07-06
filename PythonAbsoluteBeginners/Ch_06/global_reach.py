@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: global_reach.py
 created on: 19 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates global variables
 '''

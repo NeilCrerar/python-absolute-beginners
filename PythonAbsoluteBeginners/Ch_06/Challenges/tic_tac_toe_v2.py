@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: tic_tac_toe_v2.py
 created on: 19 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 6, Challenge 1
 Improve the function aks_number() so that the function can be called within a

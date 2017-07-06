@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: television.py
 created on: 03 Jul, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 8, Challenge 2
 Write a program that simulates a television by creating it as an object.  The

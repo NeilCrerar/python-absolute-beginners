@@ -1,8 +1,8 @@
 '''
 Python Programming For the Absolute Beginner, 3rd Edition
-filename: read_it
+filename: read_it.py
 created on: 26 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates reading from a text file
 '''

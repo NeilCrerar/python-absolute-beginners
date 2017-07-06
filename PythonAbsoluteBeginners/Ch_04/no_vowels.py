@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: no_vowels.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates creating new strings with a for loop
 '''

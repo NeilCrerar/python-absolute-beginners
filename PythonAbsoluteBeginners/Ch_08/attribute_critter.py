@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: attribute_critter.py
 created on: 30 Jun, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates creating and accessing object attributes
 '''

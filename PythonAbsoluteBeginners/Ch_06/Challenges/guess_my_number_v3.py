@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: guess_my_number_v3.py
 created on: 19 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 6, Challenge 2
 Modify the Guess My Number chapter project from Chapter 3 by re-using the 

@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: hangman_game.py
 created: 12 May, 2017
-@author: user
+@author: Neil_Crerar
 
 The classic game of Hangman.The computer picks a random word and 
 the player gets to guess it one letter at a time.  If the player 

@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: critter_caretaker_v3.py
 created on: 03 Jul, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 8, Challenge 3
 Create a 'back door' in the Critter Caretaker program that shows the exact 

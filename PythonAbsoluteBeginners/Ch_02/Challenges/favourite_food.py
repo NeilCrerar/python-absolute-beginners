@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: favourite_food.py
 created on: 22 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 2, Challenge 2
 Write a program that allows a user to enter his or her two favourite foods.

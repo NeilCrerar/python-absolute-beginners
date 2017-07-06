@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: critter_caretaker.py
 created on: 03 Jul, 2017
-@author: user
+@author: Neil_Crerar
 
 A virtual pet to take care of
 '''

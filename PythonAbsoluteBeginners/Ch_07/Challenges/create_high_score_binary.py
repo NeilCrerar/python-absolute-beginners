@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: create_high_score_binary
 created on: 22 Jun, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 7 Challenge helper file
 Creates a default high score binary file for the Trivia Challenge game 

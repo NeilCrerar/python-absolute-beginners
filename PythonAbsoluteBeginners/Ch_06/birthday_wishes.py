@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: birthday_wishes.py
 created on: 19 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates keyword arguments and default parameter values
 '''

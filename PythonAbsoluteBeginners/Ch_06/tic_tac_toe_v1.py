@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: tic_tac_toe_v1.py
 created on: 19 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Computer-human game of tic-tac-toe
 '''

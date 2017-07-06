@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: granted_or_denied.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates the else clause
 '''

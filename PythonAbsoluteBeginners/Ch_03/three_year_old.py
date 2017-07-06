@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: three_year_old.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates the while loop
 '''

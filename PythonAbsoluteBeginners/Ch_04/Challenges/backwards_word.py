@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: backwards_word.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 3, Challenge 2
 Create a program that gets a message from the user and then prints it out 

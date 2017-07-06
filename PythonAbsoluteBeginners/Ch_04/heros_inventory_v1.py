@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: heros_inventory_v1.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates tuple creation
 '''

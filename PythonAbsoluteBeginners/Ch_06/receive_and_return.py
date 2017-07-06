@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: receive_and_return.py
 created: 19 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates parameters and return values
 '''

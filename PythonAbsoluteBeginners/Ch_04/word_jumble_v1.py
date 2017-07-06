@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: word_jumble_v1.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 The computer picks a random word and then jumbles it.  The player then has to 
 guess the original word.

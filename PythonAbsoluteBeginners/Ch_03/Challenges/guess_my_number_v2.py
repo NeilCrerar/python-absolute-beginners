@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: guess_my_number_v2.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 3, Challenge 3
 Modify the Guess My Number game so that the player has a limited number of 

@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: critter_caretaker_v2.py
 created on: 03 Jul, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 8, Challenge 1
 Improve the Critter Caretaker program by allowing the user to specify how much 

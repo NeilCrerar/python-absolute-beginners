@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: whos_your_grandaddy_v1.py
 created: 15 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 5, Challenge 4
 Improve the Who's Your Daddy? program by adding a choice that lets the user

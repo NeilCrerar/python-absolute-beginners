@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: reveresed_my_number.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 3, Challenge 4
 Write the pseudocode for a program where the player and the computer trade 

@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: classy_critter
 created on: 30 Jun, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates class attributes and static methods
 '''

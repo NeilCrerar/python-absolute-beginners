@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 Filename: geek_translator.py
 created: 12 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates using dictionaries
 '''

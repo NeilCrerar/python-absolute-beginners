@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: whos_your_daddy.py
 created: 15 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 5, Challenge 3
 Write a Who's Your Daddy? program that lets the user enter the name of a male

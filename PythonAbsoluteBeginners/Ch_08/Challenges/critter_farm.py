@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: critter_farm.py
 created on: 03 Jul, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 8, Challenge 4
 Create a critter farm program by instantiating several critter objects and 
@@ -16,7 +16,7 @@ hunger or boredom levels.
 
 Not too happy with this solution as want all the looping through list of 
 critters within the talk, eat, play, etc. methods themselves so menu and 
-actions are truly separate.
+actions are truly separate. Would need a fairly substantial re-write though. 
 '''
 
 # Define imports

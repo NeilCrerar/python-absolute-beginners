@@ -2,14 +2,14 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: word_guesser.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 3, Challenge 4
-Create a game where the computer picks a random word and the player has to guess that word.
-The computer tells the player how many letters are in the word.
-THen the player gets five chances to ask if a letter is in the word.
-The computer can only respond with "yes" or "no".
-Then, the player must guess the word.
+Create a game where the computer picks a random word and the player has to 
+guess that word.  The computer tells the player how many letters are in the 
+word.  Then the player gets five chances to ask if a letter is in the word. The 
+computer can only respond with "yes" or "no". Then, the player must guess the 
+word.
 '''
 
 # import required modules

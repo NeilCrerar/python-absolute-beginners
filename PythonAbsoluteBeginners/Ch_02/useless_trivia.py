@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: useless_trivia.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Gets personal information from the user and then prints true but useless 
 information about them

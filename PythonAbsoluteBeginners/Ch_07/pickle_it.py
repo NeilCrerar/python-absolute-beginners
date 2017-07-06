@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: pickle_it
 created on: 26 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates pickling and shelving data
 '''

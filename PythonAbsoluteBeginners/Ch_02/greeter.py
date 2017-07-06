@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: greeter.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates the use of a variable with user input
 '''

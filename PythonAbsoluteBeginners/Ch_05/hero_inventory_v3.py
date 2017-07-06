@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: hero_inventory_v3.py
 created: 11 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrates lists
 '''

@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: character_creator.py
 created: 12 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 5, Challenge 2
 Write a Character Creator program for a role playing game.  The player should 

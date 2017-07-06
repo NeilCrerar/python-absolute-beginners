@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: loosing_battle.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Demonstrate the dreaded infinite loop
 '''

@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: car_sales.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 2, Challenge 4
 Write a car saleseman program where the user enters the base price of a car.

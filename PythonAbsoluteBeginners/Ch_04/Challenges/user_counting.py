@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: user_counting.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 3, Challenge 1
 Write a program that counts for the user.  Let the user enter the starting 

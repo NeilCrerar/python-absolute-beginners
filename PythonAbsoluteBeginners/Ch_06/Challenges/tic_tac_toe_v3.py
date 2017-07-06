@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: tic_tac_toe_v3.py
 created on: 22 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 6, Challenge 4
 Write a new computer_move() function for the Tic-Tac_toe game to plug the hole

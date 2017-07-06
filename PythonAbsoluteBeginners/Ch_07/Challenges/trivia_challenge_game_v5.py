@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: trivia_challenge_game_v5.py
 created on: 22 Jun, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 7, Challenge 4
 Create a trivia game episode that tests a players knowledge of python files and

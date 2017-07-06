@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: trivia_challenge_game_v1.py
 created on: 19 Jun, 2017
-@author: user
+@author: Neil_Crerar
 
 Trivia challenge game that reads from a plain text file containing the 
 questions to be asked.

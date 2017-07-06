@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: random_words.py
 created: 12 May, 2017
-@author: user
+@author: Neil_Crerar
 
 Chapter 5, Challenge 1
 Create a program that prints a list of words in random order.  The program 

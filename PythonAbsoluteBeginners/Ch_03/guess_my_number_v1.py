@@ -2,7 +2,7 @@
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: guess_my_number_v1.py
 created on: May, 2017
-@author: user
+@author: Neil_Crerar
 
 The computer picks a random number between 1 and 100.  The player tries to 
 guess it and the computer lets the player know if the guess is too high, too 
