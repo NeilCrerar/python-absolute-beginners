@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: trivia_challenge_game_v1.py
 created on: 19 Jun, 2017
@@ -6,7 +6,7 @@ created on: 19 Jun, 2017
 
 Trivia challenge game that reads from a plain text file containing the 
 questions to be asked.
-'''
+"""
 
 # Declare imports
 import sys
@@ -107,6 +107,4 @@ def main():
 
 # Start the game
 main()
-   
-# Default program exit control code
 input("\n\nPress the enter key to exit.")

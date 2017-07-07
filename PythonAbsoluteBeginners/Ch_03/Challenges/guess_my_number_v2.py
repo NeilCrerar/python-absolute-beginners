@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: guess_my_number_v2.py
 created on: May, 2017
@@ -8,7 +8,7 @@ Chapter 3, Challenge 3
 Modify the Guess My Number game so that the player has a limited number of 
 guesses.  If the player fails to guess in time, the program should display an 
 appropriately chastising message.
-'''
+"""
 
 import random
 

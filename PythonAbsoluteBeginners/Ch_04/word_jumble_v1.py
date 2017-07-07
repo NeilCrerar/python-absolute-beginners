@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: word_jumble_v1.py
 created on: May, 2017
@@ -6,7 +6,7 @@ created on: May, 2017
 
 The computer picks a random word and then jumbles it.  The player then has to 
 guess the original word.
-'''
+"""
 
 import random
 
@@ -25,7 +25,7 @@ jumble = ""
 while word:
     # identify a random letter in the word
     position = random.randrange(len(word))
-    # concatentate that letter and the existing jumble string
+    # concatenate that letter and the existing jumble string
     jumble += word[position]
     # re-assign word as a  concatenation of the letters up to but not including the letter
     # position identified and the letters after the letter position to the end of the word

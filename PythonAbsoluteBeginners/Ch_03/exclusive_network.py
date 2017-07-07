@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: exclusive_network.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrates logical operators and compound conditions
-'''
+"""
 
 print("\tExclusive Computer Network")
 print("\tMembers Only\n")

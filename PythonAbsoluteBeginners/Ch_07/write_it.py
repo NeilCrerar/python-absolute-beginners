@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: write_it.py
 created on: 26 May, 2017
 @author: Neil_Crerar
 
 Demonstrates writing to a file
-'''
+"""
 
 print("Creating a text file with the write() method.")
 

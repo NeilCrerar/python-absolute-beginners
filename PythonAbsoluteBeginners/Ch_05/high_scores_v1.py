@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: high_scores_v1.py
 created: 11 May, 2017
 @author: Neil_Crerar
 
 Demonstrates list methods
-'''
+"""
 
 scores = []
 choice = None

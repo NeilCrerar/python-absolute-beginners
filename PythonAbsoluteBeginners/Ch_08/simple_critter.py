@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: simple_critter.py
 created on: 30 Jun, 2017
 @author: Neil_Crerar
 
 Demonstrates a basic class and object
-'''
+"""
 
 class Critter(object):
     """A virtual pet"""
@@ -18,6 +18,4 @@ class Critter(object):
 crit = Critter()
 crit.talk()
 
-
-# Default program exit control code
 input("\n\nPress the enter key to exit.")

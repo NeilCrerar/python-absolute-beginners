@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: random_access.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrates string indexing
-'''
+"""
 
 import random
 

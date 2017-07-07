@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: critter_caretaker_v2.py
 created on: 03 Jul, 2017
@@ -8,7 +8,7 @@ Chapter 8, Challenge 1
 Improve the Critter Caretaker program by allowing the user to specify how much 
 food he or she feeds the critter and how long he or she plays with the critter.
 Have these values affect how quickly the critters hunger or boredom levels drop.
-'''
+"""
 
 class Critter(object):
     """
@@ -143,5 +143,4 @@ def main():
 
                 
 main()
-# default program exit control code
 input("\n\nPress the enter key to exit.")

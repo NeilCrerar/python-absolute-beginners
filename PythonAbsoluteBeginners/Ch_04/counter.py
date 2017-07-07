@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: counter.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrates the range() function
-'''
+"""
 
 print("Counting:")
 for i in range(10):
@@ -19,4 +19,4 @@ print("\n\nCounting backwards:")
 for i in range(10,0,-1):
     print(i, end=" ")
 
-input("\n\nPress the neter key to exit.")
+input("\n\nPress the enter key to exit.")

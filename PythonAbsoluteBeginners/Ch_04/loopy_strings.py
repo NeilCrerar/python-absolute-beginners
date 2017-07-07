@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: loopy_strings.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrates the for loop with a string
-'''
+"""
 
 word = input("Enter a word: ")
 

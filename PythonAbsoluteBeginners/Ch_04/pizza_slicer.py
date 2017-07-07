@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: pizza_slicer.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrates string slicing
-'''
+"""
 
 word = "pizza"
 
@@ -36,5 +36,3 @@ while start != "":
         print(word[start:finish])
 
 input("\nPress the enter key to exit.")
-
-        

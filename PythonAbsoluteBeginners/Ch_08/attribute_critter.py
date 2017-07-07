@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: attribute_critter.py
 created on: 30 Jun, 2017
 @author: Neil_Crerar
 
 Demonstrates creating and accessing object attributes
-'''
+"""
 
 class Critter(object):
     """A virtual pet"""
@@ -39,5 +39,4 @@ print(crit1)
 print("Directly accessing crit1.name:")
 print(crit1.name)
 
-# Default program exit control code
 input("\n\nPress the enter key to exit.")

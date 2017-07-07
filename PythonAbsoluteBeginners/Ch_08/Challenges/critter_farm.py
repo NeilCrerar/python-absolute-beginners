@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: critter_farm.py
 created on: 03 Jul, 2017
@@ -17,7 +17,7 @@ hunger or boredom levels.
 Not too happy with this solution as want all the looping through list of 
 critters within the talk, eat, play, etc. methods themselves so menu and 
 actions are truly separate. Would need a fairly substantial re-write though. 
-'''
+"""
 
 # Define imports
 from random import randint
@@ -192,5 +192,4 @@ def main():
 
                 
 main()
-# default program exit control code
 input("\n\nPress the enter key to exit.")

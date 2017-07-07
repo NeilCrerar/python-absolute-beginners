@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: trivia_challenge_game_v3.py
 created on: 21 Jun, 2017
@@ -8,6 +8,7 @@ Chapter 7, Challenge 2
 Improve the previous Trivia Challenge game so that it maintains a high-scores 
 list in a file.  THe program should record the players name and score if the 
 player makes the list.  Store the high scores using a pickled object.
+
 NOTE: This program doesn't account for matching lowest scores.  If match 
 current lowest score then new score replaces old one.
 
@@ -15,7 +16,7 @@ NOTE: Originally written with rb+ and a single check and update high score
 function to save on number times opening and closing high score file but despite 
 getting logic working, couldn't get the updated high scores to write to file 
 - always retrieved the original content when display high score table? 
-'''
+"""
 
 # Declare imports
 import sys

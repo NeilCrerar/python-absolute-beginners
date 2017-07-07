@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: trivia_challenge_game_v2a.py
 created on: 20 Jun, 2017
@@ -8,14 +8,14 @@ Chapter 7, Challenge 1
 Improve the previous Trivia Challenge game so that each question has a unique 
 point value associated with it.  Th3e players score should be the total of all 
 of the points values of the questions he or she answer correctly.
+
 Solution implemented is to have an accumulator that starts at 1 and increased 
 by 2 for each correct but resets to 1 if a wrong answer is given.  This is then 
 added to the score as questions answered correctly.
-'''
+"""
 
 # Declare imports
 import sys
-
 
 def open_file(file_name, mode):
     """

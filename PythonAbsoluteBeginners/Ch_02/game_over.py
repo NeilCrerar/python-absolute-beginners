@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: game_over.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrates use of quotes in strings
-'''
+"""
 
 print("Program 'Game Over' 2.0")
 print("same", "message", "as before")
@@ -31,4 +31,5 @@ print(
                                                  
     """
     )
+
 input("\n\nPress the enter key to exit.")

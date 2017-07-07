@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: critter_caretaker_v3.py
 created on: 03 Jul, 2017
@@ -7,9 +7,9 @@ created on: 03 Jul, 2017
 Chapter 8, Challenge 3
 Create a 'back door' in the Critter Caretaker program that shows the exact 
 values of the objects attributes.  Accomplish this by printing the object when
- a secret selection, not listed in the menu, is entered as the users choice. 
- (Hint: add the special method __Str__()to the Critter class.)
-'''
+a secret selection, not listed in the menu, is entered as the users choice. 
+(Hint: add the special method __Str__()to the Critter class.)
+"""
 
 class Critter(object):
     """
@@ -163,5 +163,4 @@ def main():
 
                 
 main()
-# default program exit control code
 input("\n\nPress the enter key to exit.")

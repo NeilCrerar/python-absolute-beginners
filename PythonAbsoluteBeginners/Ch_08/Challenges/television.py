@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: television.py
 created on: 03 Jul, 2017
@@ -8,7 +8,7 @@ Chapter 8, Challenge 2
 Write a program that simulates a television by creating it as an object.  The
 user should be able to enter a channel number and raise or lower the volume.
 Make sure that the channel number and volume stay within valid ranges.
-'''
+"""
 
 class Television(object):
     """
@@ -125,5 +125,4 @@ def main():
 
                 
 main()
-# default program exit control code
 input("\n\nPress the enter key to exit.")

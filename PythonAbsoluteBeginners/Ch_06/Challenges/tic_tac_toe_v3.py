@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: tic_tac_toe_v3.py
 created on: 22 May, 2017
@@ -8,21 +8,19 @@ Chapter 6, Challenge 4
 Write a new computer_move() function for the Tic-Tac_toe game to plug the hole
 in the computers strategy.  See if you can create an opponent that is 
 unbeatable.
-'''
 
-# Couple of ways this could be approached which would be to extend the existing
-# logic and have a better rules for deciding which position to take next.  Or  
-# just modify the 'best moves' to focus on the corners, then centre then other 
-# squares to make it harder to play against
+NOTE: Couple of ways this could be approached which would be to extend the 
+existing logic and have a better rules for deciding which position to take next.  
+Or just modify the 'best moves' to focus on the corners, then centre then other 
+squares to make it harder to play against
+"""
 
-
-# declare global constants
+# Declare global constants
 X = "X"
 O = "O"
 EMPTY = " "
 TIE = "TIE"
 NUM_SQUARES = 9
-
 
 def display_instructions():
     """Display game instructions"""
@@ -52,7 +50,7 @@ def ask_yes_no(question):
         response = input(question).lower()
     return response
 
-# added a step value parameter with a default of 1
+# Added a step value parameter with a default of 1
 def ask_number(question, low, high, step=1):
     """Ask for a number within a range"""
     response = None
@@ -135,15 +133,15 @@ def human_move(board, human):
 
 def computer_move(board, computer, human):
     """The computer makes it's move"""
-    # make a copy of the board to work with to decide on best move as need to
+    # Make a copy of the board to work with to decide on best move as need to
     # change it
     board = board[:]
-    # the best board positions to have in order
+    # The best board positions to have in order
     
-    # re-worked the best moves to make the computer unbeatable    
+    # Re-worked the best moves to make the computer unbeatable    
     BEST_MOVES = (0, 8, 6, 2, 4, 1, 3, 7, 5)
     print("I shall take square number", end=" ")
-    # loop through the legal moves trying the computers piece there looking
+    # Loop through the legal moves trying the computers piece there looking
     # for a win
     for move in legal_moves(board):
         board[move] = computer
@@ -152,16 +150,16 @@ def computer_move(board, computer, human):
             return move
         # after checking a move, undo it
         board[move] = EMPTY
-    # loop through the legal moves seeing if there is a move where the human
+    # Loop through the legal moves seeing if there is a move where the human
     # can win
     for move in legal_moves(board):
         board[move] = human
         if winner(board) == human:
             print(move)
             return move
-        # after checking a move, undo it
+        # After checking a move, undo it
         board[move] = EMPTY
-    # since no-one wins on next move, select best square possible
+    # Since no-one wins on next move, select best square possible
     for move in BEST_MOVES:
         if move in legal_moves(board):
             print(move)
@@ -193,6 +191,7 @@ def congratulate_winner(the_winner, computer, human):
         print("You were most lucky, human, and somehow managed to tie me.\n"\
               "Celebrate today...for this is the best you will ever achieve.")
 
+
 def play_again():
     """Give player the option to play another game"""
     choice = input("\n\nWould you like to play again(Y/N)? ")
@@ -219,14 +218,11 @@ def main():
             board[move] = computer
         display_board(board)
         turn = next_turn(turn)
-        
     the_winner = winner(board)
     congratulate_winner(the_winner, computer, human)
     play_again()
 
 
-# start the program
+# Start the program
 main()
 input("\n\nPress any key to exit the program.")
-   
-

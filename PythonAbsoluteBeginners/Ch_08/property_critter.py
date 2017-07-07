@@ -1,11 +1,12 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: property_critter.py
 created on: 30 Jun, 2017
 @author: Neil_Crerar
 
 Demonstrates properties
-'''
+"""
+
 class Critter(object):
     """A virtual pet"""
 
@@ -52,5 +53,4 @@ crit.name = ""
 print("My critters name is:", end=" ")
 print(crit.name)
 
-# Default program exit control code
 input("\n\nPress the enter key to exit.")

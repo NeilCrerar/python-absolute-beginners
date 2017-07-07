@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: trivia_challenge_game_v4.py
 created on: 21 Jun, 2017
@@ -8,9 +8,10 @@ Chapter 7, Challenge 3
 Improve the previous Trivia Challenge game so that it maintains a high-scores 
 list in a file.  THe program should record the players name and score if the 
 player makes the list.  Store the high scores using a plain text file.
+
 NOTE: This program doesn't account for matching lowest scores.  If match 
 current lowest score then new score replaces old one
-'''
+"""
 
 # Declare imports
 import sys

@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: classy_critter
 created on: 30 Jun, 2017
 @author: Neil_Crerar
 
 Demonstrates class attributes and static methods
-'''
+"""
 
 class Critter(object):
     """A virtual pet"""
@@ -41,5 +41,4 @@ Critter.status()
 print("\nAccessing the class attribute through an object: ", end=" ")
 print(crit1.total)
 
-# Default program exit control code
 input("\n\nPress the enter key to exit.")

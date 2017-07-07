@@ -1,20 +1,18 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: tic_tac_toe_v1.py
 created on: 19 May, 2017
 @author: Neil_Crerar
 
 Computer-human game of tic-tac-toe
-'''
+"""
 
-
-# declare global constants
+# Declare global constants
 X = "X"
 O = "O"
 EMPTY = " "
 TIE = "TIE"
 NUM_SQUARES = 9
-
 
 def display_instructions():
     """Display game instructions"""
@@ -125,13 +123,13 @@ def human_move(board, human):
 
 def computer_move(board, computer, human):
     """The computer makes it's move"""
-    # make a copy of the board to work on to decide on best move as need to
+    # Make a copy of the board to work on to decide on best move as need to
     # change it
     board = board[:]
-    # the best board positions to have in order
+    # The best board positions to have in order
     BEST_MOVES = (4, 0, 2, 6, 8, 1, 3, 5, 7)
     print("I shall take square number", end=" ")
-    # loop through the legal moves trying the computers piece there looking 
+    # Loop through the legal moves trying the computers piece there looking 
     # for a win
     for move in legal_moves(board):
         board[move] = computer
@@ -140,16 +138,16 @@ def computer_move(board, computer, human):
             return move
         # after checking a move, undo it
         board[move] = EMPTY
-    # loop through the legal moves seeing if there is a move where the human
+    # Loop through the legal moves seeing if there is a move where the human
     # can win
     for move in legal_moves(board):
         board[move] = human
         if winner(board) == human:
             print(move)
             return move
-        # after checking a move, undo it
+        # After checking a move, undo it
         board[move] = EMPTY
-    # since no-one wins on next move, select best square possible
+    # Since no-one wins on next move, select best square possible
     for move in BEST_MOVES:
         if move in legal_moves(board):
             print(move)
@@ -201,6 +199,6 @@ def main():
     the_winner = winner(board)
     congratulate_winner(the_winner, computer, human)
 
-# start the program
+# Start the program
 main()
 input("\n\nPress the enter key to quit.")

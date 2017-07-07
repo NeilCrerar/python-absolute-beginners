@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: instructions.py
 created: 15 May, 2017
 @author: Neil_Crerar
 
 Demonstrates programmer-created functions
-'''
+"""
 
 def instructions():
     """Display game instructions"""
@@ -25,13 +25,12 @@ def instructions():
     Prepare yourself, human.  The ultimate battle is about to begin.\n
     """)
 
-# main
+
+# Main
 print("Here are the instructions to the Tic-Tac-Toe game:")
 instructions()
 print("Here they are again:")
 instructions()
 print("You probably understand the game by now.")
 
-
 input("\n\nPress the enter key  to exit.")
-

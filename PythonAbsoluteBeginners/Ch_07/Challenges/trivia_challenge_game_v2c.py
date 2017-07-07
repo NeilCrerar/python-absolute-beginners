@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: trivia_challenge_game_v2c.py
 created on: 21 Jun, 2017
@@ -8,9 +8,10 @@ Chapter 7, Challenge 1 - alternative solution
 Improve the previous Trivia Challenge game so that each question has a unique 
 point value associated with it.  Th3e players score should be the total of all 
 of the points values of the questions he or she answer correctly.
+
 Solution implemented is for each correct answer, randomly assign a points value 
 between 1-5. 
-'''
+"""
 
 # Declare imports
 import sys

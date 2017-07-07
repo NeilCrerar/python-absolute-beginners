@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: mood_computer.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrates the 'elif' clause
-'''
+"""
 
 import random
 
@@ -15,7 +15,7 @@ print("You are...")
 mood = random.randint(1,3)
 
 if mood == 1:
-    # happy
+    # Happy
     print("""
              __________
             |          |
@@ -28,7 +28,7 @@ if mood == 1:
 
             """)
 elif mood == 2:
-    # neutral
+    # Neutral
     print("""
              __________
             |          |
@@ -41,7 +41,7 @@ elif mood == 2:
 
             """)
 elif mood == 3:
-    # sad
+    # Sad
     print("""
              __________
             |          |

@@ -1,13 +1,13 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: quotation_manipulation.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrates string methods
-'''
+"""
 
-# quote from IBM Chairman, Thomas Watson, in 1943
+# Quote from IBM Chairman, Thomas Watson, in 1943
 quote = "I think there is a world market for maybe five computers."
 
 print("Original quote:")

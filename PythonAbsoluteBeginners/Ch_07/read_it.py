@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: read_it.py
 created on: 26 May, 2017
 @author: Neil_Crerar
 
 Demonstrates reading from a text file
-'''
+"""
 
 print("Opening and closing the file.")
 text_file = open("read_it.txt", "r")
@@ -46,5 +46,3 @@ for line in text_file:
 text_file.close()
 
 input("\n\nPress the enter key to exit.")
-
-

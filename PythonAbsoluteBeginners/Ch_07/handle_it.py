@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: handle_it.py
 created on: 19 Jun, 2017
 @author: Neil_Crerar
 
 Demonstrates exception handling
-'''
+"""
 
 # Basic try/except
 try:

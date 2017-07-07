@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: guess_my_number_v4.py
 created on: 22 May, 2017
@@ -8,19 +8,19 @@ Chapter 6, Challenge 3
 Modify the new version of Guess My Number you created in the last challenge so
 that the programs code is in a function called main().  Don't forget to call 
 main() so that you can play the game.
-NOTE: I've also put the game instructions in a function as well just for the 
-practice
-'''
 
-# import required modules
+NOTE: I've also put the game instructions in a function as well just for the 
+practice.
+"""
+
+# Import required modules
 import random
 
-# set the initial values
+# Set the initial values
 LOWER_RANGE = 0
 HIGHER_RANGE = 100
 the_number = random.randint(LOWER_RANGE,HIGHER_RANGE)
 MAX_ATTEMPTS = 7
-
 
 def game_instructions():
     print("\nWelcome to the 'Guess My Number' game.")
@@ -54,7 +54,7 @@ def main():
                    "\n")
         else:
             print("You guessed my number!  It was", the_number, end=" ")
-            # implement a modified message for getting it on the first guess
+            # Implement a modified message for getting it on the first guess
             if counter == 1:
                 print("And it only took you one guess to get it!\n")
                 break

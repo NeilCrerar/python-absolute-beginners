@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: random_words.py
 created: 12 May, 2017
@@ -7,8 +7,8 @@ created: 12 May, 2017
 Chapter 5, Challenge 1
 Create a program that prints a list of words in random order.  The program 
 should print all the words and not repeat any
-'''
-
+"""
+###############################################################################
 # Pseudocode for this program: 
 # Create constant set of words to be printed out
 # Print out words in original order
@@ -16,14 +16,15 @@ should print all the words and not repeat any
 # Loop until the copied list is empty
 # Select a word at random from that list and print it 
 # Remove that word from the copy list
+###############################################################################
 
-# imports
+# Imports
 import random
 
 # Create constant set of words to be printed out
 WORD_LIST = ("The", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog")
 
-# intrp text for the program
+# Intrp text for the program
 print("Welcome to the Word Scrambler program!")
 print("This program takes a list of words and then randomises them without any repetitions.")
 # Print out words in original order
@@ -40,6 +41,5 @@ while len(randomised_words) != 0:
     print(word, end=" ")
     # Remove that word from the copy list
     randomised_words.remove(word)
-
 
 input("\n\nPress the enter key to exit the program")

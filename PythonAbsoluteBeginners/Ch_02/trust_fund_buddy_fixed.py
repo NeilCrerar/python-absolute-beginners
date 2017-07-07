@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: trust_fund_buddy_fixed.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrates a logical error after it's resolved
-'''
+"""
 
 print("""
         Trust Fund Buddy

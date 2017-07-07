@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: critter_caretaker.py
 created on: 03 Jul, 2017
 @author: Neil_Crerar
 
 A virtual pet to take care of
-'''
+"""
 
 class Critter(object):
     """A virtual pet"""
@@ -96,6 +96,4 @@ def main():
             print("\nSorry, but", choice, "isn't a valid choice.")
                 
 main()
-
-# default program exit control code
 input("\n\nPress the enter key to exit.")

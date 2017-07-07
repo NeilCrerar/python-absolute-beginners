@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: create_high_score_text.py
 created on: 22 Jun, 2017
@@ -6,7 +6,7 @@ created on: 22 Jun, 2017
 
 Chapter 7 Challenge helper file
 Creates a default high score text file for the Trivia Challenge game 
-'''
+"""
 
 # Define imports
 import pickle

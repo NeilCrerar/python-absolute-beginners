@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: heros_inventory_v2.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Create a tuple with some items and display with a for loop
-'''
+"""
 
 inventory = ("Sword", "Armour", "Shield", "Healing Potion")
 
@@ -45,4 +45,3 @@ print("You inventory is now:")
 print(inventory)
 
 input("\nPress the enter key to exit.")
-

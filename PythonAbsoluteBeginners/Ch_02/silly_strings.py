@@ -1,12 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: silly_strings.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrates string concatenation and repetition
-'''
-
+"""
 
 print("You can concatenate two " + "strings with the '+' operator.")
 

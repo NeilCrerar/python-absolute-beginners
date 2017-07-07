@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: high_scores_v2.py
 created: 12 May, 2017
 @author: Neil_Crerar
 
 Demonstrates the use of nested sequences
-'''
+"""
 
 scores = []
 choice = None

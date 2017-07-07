@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: whos_your_grandaddy_v2.py
 created: 18 May 18, 2017
@@ -9,9 +9,10 @@ Improve the Who's Your Daddy? program by adding a choice that lets the user
 enter a name and get back a grandfather.  Your program should still only use 
 one dictionary of son-father pairs.  Make sure to include several generations
 in your dictionary so that a match can be found.
+
 NOTE: Variation on this challenge where use a nested dictionary to achieve the
 same outcome as extending the dictionary.
-'''
+"""
 
 #NOTE TO SELF - to see the entries listed under a given son is...
 #print("Full entry for a son is:", register["son"])
@@ -53,23 +54,22 @@ while menu_choice != "0":
     
     0 - Quit
     """)
-        # get term to look up from user
+    # Get term to look up from user
     menu_choice = input("Please select a menu option: ")
 
-    # 0 exit the program
+    # Exit the program
     if menu_choice == "0":
         print("Thank you for using this program.  Good Bye.")
 
     elif menu_choice == "1":
         print("\nThe son, father and grandfather listings currently recorded in the register are:")
-        # print every entry in the register dictionary
+        # Print every entry in the register dictionary
         for son in register:
             print("  ", son, "is the son of", register[son]["father"],\
                   "and the grandson of", register[son]["grandfather"])
 
-
     elif menu_choice == "2":
-        # get the name of the son
+        # Get the name of the son
         son = input("\nEnter the son's name: ")
         # Use title capitalisation as that's how the dictionary is setup
         if son.title() in register:
@@ -92,7 +92,6 @@ while menu_choice != "0":
         else:
             print("That name does not exist in the register, you may want to add it.\n")
 
-
     elif menu_choice == "3":
         son = input("\nEnter the name of the son to be added: ")
         if son.title() not in register:
@@ -101,25 +100,24 @@ while menu_choice != "0":
                                "('Y' to add or any other key to return to the main menu).")
             if add_choice.upper() == "Y":
                 grandfather = input("Enter the name for the grandfather in this pairing: ")
-                # create new entry with the entered son, father and grandfather
+                # Create new entry with the entered son, father and grandfather
                 # names and add to the dictionary
                 register[son.title()] = {"father": father.title(),\
                                          "grandfather": grandfather.title()}
-                # print out confirmation of the new entry being created
+                # Print out confirmation of the new entry being created
                 print(son.title(), "the son of", father.title(),"and grandson of",\
                       grandfather.title(), "has been added.\n")
             else:
-                # create new entry with the entered son, father and grandfather 
+                # Create new entry with the entered son, father and grandfather 
                 # names and add to the dictionary
                 register[son.title()] = {"father": father.title(),\
                                          "grandfather": "unknown"}
-                # print out confirmation of the new addition
+                # Print out confirmation of the new addition
                 print(son.title(), "the son of", father.title(),\
                       "has been added but the grandfather has " \
                       "not been recorded.\n")
         else:
             print("That name is is already recorded in the register.\n")
-            
             
     elif menu_choice == "4":
         son = input("\nEnter the name of the son who's entry you want to edit: ")
@@ -127,7 +125,7 @@ while menu_choice != "0":
             generation_choice = input("Do you want to edit the father (F),"\
                                       "grandfather (G) or both (B)?")
             if generation_choice.upper() == "F":
-                # Note still have to do the title conversion when looking up in
+                # Still have to do the title conversion when looking up in
                 # the dictionary via dictionary[key]
                 father = input("Enter the name for the new father in this pairing: ")
                 register[son.title()]["father"] = father.title()
@@ -148,7 +146,6 @@ while menu_choice != "0":
         else:
             print("That name does not exist in the register. Try adding it.\n")
             
-
     elif menu_choice == "5":
         son = input("\nEnter the name of the son for the listing to be deleted: ")
         if son.title() in register:
@@ -162,6 +159,5 @@ while menu_choice != "0":
                 print("That son-father-grandfather listing has been deleted from the register.\n")
         else:
             print("That name does not exist in the register, it may have already been deleted.\n")
-
 
 input("\n\nPress the enter key to exit the program.")

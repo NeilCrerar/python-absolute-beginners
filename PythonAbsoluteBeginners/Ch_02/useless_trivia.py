@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: useless_trivia.py
 created on: May, 2017
@@ -6,7 +6,7 @@ created on: May, 2017
 
 Gets personal information from the user and then prints true but useless 
 information about them
-'''
+"""
 
 name = input("Hi. What is your name? ")
 

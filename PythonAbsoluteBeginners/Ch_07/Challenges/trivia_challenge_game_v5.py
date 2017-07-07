@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: trivia_challenge_game_v5.py
 created on: 22 Jun, 2017
@@ -13,7 +13,7 @@ matching lowest scores. If match current lowest score then new score simply
 replaces the old one.
 
 NOTE: This also resolves the rb+ overwrite issue seen in Version 3
-'''
+"""
 
 # Declare imports
 import sys
@@ -21,7 +21,6 @@ import pickle
 
 # Declare defaults
 hscore_file = "high_scores.dat"
-
 
 def open_file(file_name, mode):
     """

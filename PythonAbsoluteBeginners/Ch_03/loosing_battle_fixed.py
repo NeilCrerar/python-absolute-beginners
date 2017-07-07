@@ -1,11 +1,11 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: loosing_battle_fixed.py
 created on: May, 2017
 @author: Neil_Crerar
 
 Demonstrate the dreaded infinite loop - fixed
-'''
+"""
 
 print("Your lone hero is surrounded by a massive army of trolls.")
 print("Their decaying green bodies stretch out, melting into the horizon.")

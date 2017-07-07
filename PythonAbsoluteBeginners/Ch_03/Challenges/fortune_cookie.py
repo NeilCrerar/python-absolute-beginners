@@ -1,4 +1,4 @@
-'''
+"""
 Python Programming For the Absolute Beginner, 3rd Edition
 filename: fortune_cookie.py
 created on: May, 2017
@@ -7,7 +7,7 @@ created on: May, 2017
 Chapter 3, Challenge 1
 Write  a program that simulates a fortune cookie. The program should display 
 one of five unique fortunes, at random, each time it's run.
-'''
+"""
 
 import random
 
@@ -56,6 +56,5 @@ elif random_number == 19:
     print("...Today is probably a huge improvement over yesterday")
 else:
     print("...Every exit is an entrance to new experiences")
-
 
 input("\n\nPress the enter key to exit")
