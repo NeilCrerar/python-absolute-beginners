@@ -1,19 +1,18 @@
 -------------------------------------------------------------------------------
-CHAPTER 01: Getting Started
----------------------------
+# CHAPTER 01: Getting Started #
+------------------------------
 
-HINT_Page-5
+## HINT_Page-5 ##
 The companion website for this book can be found at:
     www.courseptr.com/downloads.
-It hosts the code for every complete program presented in these pages, along 
-with all necessary files and software installers.  You can find a more detailed 
-description of what's available in Appendix A 'The Companion Website'.
+It hosts the code for every complete program presented in these pages, along with all necessary files and software
+installers.  You can find a more detailed description of what's available in Appendix A 'The Companion Website'.
 
-TRAP_Page-7
-Your computer may have Python preinstalled; however, you must be using Python 3 
-in order for the programs in this book to work correctly.
+## TRAP_Page-7 ##
+Your computer may have Python preinstalled; however, you must be using Python 3 in order for the programs in this book
+to work correctly.
 
-TRAP_Page-8
+## TRAP_Page-8 ##
 Python is case-sensitive and by convention, function names are in lowercase. So: 
     print("Game Over")
 Will work, but: 
@@ -21,19 +20,18 @@ Will work, but:
 And: 
     PRINT("Game Over")
 Won't.
-  
-HINT_Page-8
-Functions in Python also return or provide information back to the part of the 
-program that called the function.  These values are called return values.  
-You'll learn more about return values in Chapter 2.
 
-HINT_Page-11
-Make sure to save your programs with the '.py' extension.  This allows various 
-applications, including IDLE, to recognise these files as Python programs.
+## HINT_Page-8 ##
+Functions in Python also return or provide information back to the part of the program that called the function.  These
+values are called return values.  You'll learn more about return values in Chapter 2.
 
-TRICK_Page-12
-Under the Windows operating system, you can directly open a Python program in
-IDLE by right-clicking on the file icon and selecting 'Edit with IDLE'.
+## HINT_Page-11 ##
+Make sure to save your programs with the '.py' extension.  This allows various applications, including IDLE, to
+recognise these files as Python programs.
+
+## TRICK_Page-12 ##
+Under the Windows operating system, you can directly open a Python program in IDLE by right-clicking on the file icon
+and selecting 'Edit with IDLE'.
 
 -------------------------------------------------------------------------------
 CHAPTER 02: Types, Variables and Simple I/O
@@ -104,7 +102,7 @@ don't have an established definition for order can't be compared using the <,
 <=, >, >= operators.  For example, Python wont let you use these operators to 
 compare strings and integers.  Go ahead, try to use the condition:
     10 > "five"
-In your program – all you'll do is generate a big, fat error message.
+In your program ï¿½ all you'll do is generate a big, fat error message.
 
 HINT_Page-57
 There's passionate debate within the Python community about whether to use tabs 
@@ -298,7 +296,7 @@ Trying to delete a dictionary item through a key that doesn't exist will give
 you an error.  It's a smart move to be sure that the key you're using exists.
 
 TRAP_Page-148
-Dictionary views – returned by 'keys()', 'values()', and 'items() – are, in 
+Dictionary views ï¿½ returned by 'keys()', 'values()', and 'items() ï¿½ are, in 
 some ways, like lists.  They can be iterated over with a 'for' loop.  However, 
 they are not lists.  They can't, for example, be indexed.  In addition, views 
 are dynamic, which means that their contents are not independent of their 
